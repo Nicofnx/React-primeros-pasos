@@ -1,0 +1,71 @@
+.btn {
+  margin: 5px 0 5px 0;
+  width: 75px;
+  height: 60px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  box-shadow: 3px 3px 10px 1px #000
+}
+
+
+.btn:active {
+  font-size: 2em;
+  transform: scale(0.94);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+}
+
+.btn-click {
+  width: 125px;
+  height: 40px;
+  color: #fff;
+  font-size: 1.3em;
+  background-color: lightcoral;
+  border-radius: 10px;
+  border: none;
+  
+  
+}
+
+.btn-reset {
+  width: 125px;
+  height: 40px;
+  color: #fff;
+  font-size: 1.3em;
+  background-color: lightskyblue;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn-click:hover {
+  box-shadow: 3px 3px 10px 0px lightcoral;
+  font-weight: bold;
+}
+  
+.btn-reset:hover {
+  box-shadow: 3px 3px 10px 0px lightskyblue;
+}
+
+.btn-number {
+  background-color: lightcoral;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 2em;
+}
+
+.btn-operador {
+  background-color: rgb(13, 75, 218);
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 2em;
+}
+
+.btn-clear {
+  width: 80%;
+  background-color: rgb(254, 67, 67);
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 2em;
+}
