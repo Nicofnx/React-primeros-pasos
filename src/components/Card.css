@@ -11,8 +11,7 @@
   align-items: center;
   color: #ddd;
   background-size: 400% 300%;
-  background-image: linear-gradient(to right, #250042, #2a044a, #2f0a52, #34115b, #391763, #3e1a6d, #421e77, #472182, #4d2290, #53249f, #5a25ad, #6026bc);
-  animation: 10s ease-in-out 10s infinite slidebackground;
+  background-image: linear-gradient(to right top, #d16ba5, #b16ea7, #936ea1, #7a6c95, #676883, #66718b, #667991, #678296, #669fb6, #5fbdd2, #58dce6, #5ffbf1);  animation: 10s ease-in-out 10s infinite slidebackground;
 }
 
 .box:hover{

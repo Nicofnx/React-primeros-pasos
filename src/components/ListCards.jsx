@@ -22,6 +22,7 @@ function ListCards(){
         work={data[2].work}
         text={data[2].text}
       />
+      
     </>
   );
 };
