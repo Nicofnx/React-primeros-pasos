@@ -10,8 +10,17 @@ function Calculadora() {
   const [input, setInput] = useState('') ;
 
   const agregarValue = (e) => {
-    setInput(input + e.target.value)
+    input === 'Err' 
+    ? setInput('') 
+    : input.length < 14 
+      ? setInput(input + e.target.value) 
+      : error()
   };
+
+  const error = () => {
+    setInput('Err');
+    alert ('Error, Supero la cantidad de digitos permitidos')
+  }
 
   const resolver = () => {
     input === '' ?setInput('') :setInput(round(evaluate(input),10));
@@ -28,7 +37,7 @@ function Calculadora() {
     <div className="box-calculadora"> 
       <div className="fila">
         <div className="input">
-          {input.length < 14 ? input: 'Error'}
+          {input}
         </div>
       </div>
       <div className="fila">

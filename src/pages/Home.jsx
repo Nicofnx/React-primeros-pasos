@@ -2,6 +2,7 @@ import Contador from "../components/Contador";
 import ListCards from "../components/ListCards";
 import Calculadora from "../components/Calculadora";
 import "./Home.css";
+import ListadeTareas from "../components/Lista-de-tareas/ListaTareas";
 
 
 
@@ -16,6 +17,8 @@ function Home() {
       <Contador/>
       <h2>Calculadora con operaciones basicas</h2>
       <Calculadora/>
+      <h2>Lista de tareas a realizar (TODOLIST)</h2>
+      <ListadeTareas/>
     </>
   );
 };
