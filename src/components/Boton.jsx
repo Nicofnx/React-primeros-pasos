@@ -2,7 +2,7 @@ import './Boton.css';
 
 
 function Boton(props) {
-  const {id, name, style, funcion, children=null} = props;
+  const {name, style, funcion, children=null} = props;
   
 
 

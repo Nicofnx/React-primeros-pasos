@@ -1,6 +1,6 @@
 import './Tarea.css'
 
-import { AiOutlineCloseCircle } from 'react-icons/ai'
+
 
 const Tarea = (props) => {
 

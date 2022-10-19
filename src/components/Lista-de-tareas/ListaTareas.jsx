@@ -7,8 +7,7 @@ import { useState } from "react"
 const ListadeTareas = () => {
 
   const [tareas, setTareas] = useState([])
-  const [completada, setCompletada] = useState(true)
-
+  
 
   const agregarTarea = (tarea)=> {
     
